@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TyperShark.jnlp">
+  <information>
+    <title>TyperShark</title>
+    <vendor>Flores</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TyperShark.jar" size="60334" download="eager" />
+    <jar href="lib/twitter4j-core-4.0.4.jar" size="290456" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="TyperShark" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="typershark.TyperShark"  name="TyperShark" />
+  <update check="always"/>
+</jnlp>
